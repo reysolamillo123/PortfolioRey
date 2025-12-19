@@ -17,6 +17,18 @@ import badge2 from './src/assets/images/badge/badge2.png';
 import badge3 from './src/assets/images/badge/badge3.png';
 import badge4 from './src/assets/images/badge/badge4.png';
 import reyImage from './src/assets/images/project/REY.jpg';
+import aura1 from './src/assets/images/project/Aurapharm/Aura1.png';
+import aura2 from './src/assets/images/project/Aurapharm/Aura2.png';
+import aura3 from './src/assets/images/project/Aurapharm/Aura3.png';
+import aura4 from './src/assets/images/project/Aurapharm/Aura4.png';
+import aura5 from './src/assets/images/project/Aurapharm/Aura5.png';
+import aura6 from './src/assets/images/project/Aurapharm/Aura6.png';
+import aura7 from './src/assets/images/project/Aurapharm/Aura7.png';
+import aura8 from './src/assets/images/project/Aurapharm/Aura8.png';
+import aura9 from './src/assets/images/project/Aurapharm/Aura9.png';
+import aura10 from './src/assets/images/project/Aurapharm/Aura10.png';
+import aura11 from './src/assets/images/project/Aurapharm/Aura11.png';
+import aura12 from './src/assets/images/project/Aurapharm/Aura12.png';
 import { MdEmail, MdPhone, MdLocationOn } from 'react-icons/md';
 
 function App() {
@@ -161,15 +173,9 @@ function App() {
           <Carousel itemsPerView={3}>
             {(projectCategory === 'all' || projectCategory === 'beginner') && (projectLanguage === 'all' || projectLanguage === 'react') && (
               <SpotlightCard spotlightColor="rgba(139, 0, 0, 0.3)">
-                <div className="project-card" onClick={() => openModal(['./src/assets/images/project/Aurapharm/Aura1.png',
-                   './src/assets/images/project/Aurapharm/Aura2.png', './src/assets/images/project/Aurapharm/Aura3.png', 
-                   './src/assets/images/project/Aurapharm/Aura4.png', './src/assets/images/project/Aurapharm/Aura5.png', 
-                   './src/assets/images/project/Aurapharm/Aura6.png', './src/assets/images/project/Aurapharm/Aura7.png', 
-                   './src/assets/images/project/Aurapharm/Aura8.png', './src/assets/images/project/Aurapharm/Aura9.png', 
-                   './src/assets/images/project/Aurapharm/Aura10.png', './src/assets/images/project/Aurapharm/Aura11.png', 
-                   './src/assets/images/project/Aurapharm/Aura12.png'], 'AuraPharm: Pharmacy Management System',
+                <div className="project-card" onClick={() => openModal([aura1, aura2, aura3, aura4, aura5, aura6, aura7, aura8, aura9, aura10, aura11, aura12], 'AuraPharm: Pharmacy Management System',
                     'This is a comprehensive pharmacy management system designed to streamline operations and improve patient care.')}>
-                  <div className="card-image" style={{ backgroundImage: 'url(./src/assets/images/project/Aurapharm/Aura3.png)' }}></div>
+                  <div className="card-image" style={{ backgroundImage: `url(${aura3})` }}></div>
                   <span className="difficulty-badge beginner">Beginner</span>
                   <div className="card-overlay">
                     <h3>AuraPharm: Pharmacy Management System</h3>
