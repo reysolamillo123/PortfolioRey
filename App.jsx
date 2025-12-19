@@ -161,14 +161,21 @@ function App() {
           <Carousel itemsPerView={3}>
             {(projectCategory === 'all' || projectCategory === 'beginner') && (projectLanguage === 'all' || projectLanguage === 'react') && (
               <SpotlightCard spotlightColor="rgba(139, 0, 0, 0.3)">
-                <div className="project-card" onClick={() => openModal(['https://picsum.photos/seed/project1/1200/800', 'https://picsum.photos/seed/project1a/1200/800', 'https://picsum.photos/seed/project1b/1200/800'], 'Project 1', 'Description of your amazing project goes here. Add details about technologies used and impact.')}>
-                  <div className="card-image" style={{ backgroundImage: 'url(https://picsum.photos/seed/project1/800/600)' }}></div>
+                <div className="project-card" onClick={() => openModal(['./src/assets/images/project/Aurapharm/Aura1.png',
+                   './src/assets/images/project/Aurapharm/Aura2.png', './src/assets/images/project/Aurapharm/Aura3.png', 
+                   './src/assets/images/project/Aurapharm/Aura4.png', './src/assets/images/project/Aurapharm/Aura5.png', 
+                   './src/assets/images/project/Aurapharm/Aura6.png', './src/assets/images/project/Aurapharm/Aura7.png', 
+                   './src/assets/images/project/Aurapharm/Aura8.png', './src/assets/images/project/Aurapharm/Aura9.png', 
+                   './src/assets/images/project/Aurapharm/Aura10.png', './src/assets/images/project/Aurapharm/Aura11.png', 
+                   './src/assets/images/project/Aurapharm/Aura12.png'], 'AuraPharm: Pharmacy Management System',
+                    'This is a comprehensive pharmacy management system designed to streamline operations and improve patient care.')}>
+                  <div className="card-image" style={{ backgroundImage: 'url(./src/assets/images/project/Aurapharm/Aura3.png)' }}></div>
                   <span className="difficulty-badge beginner">Beginner</span>
                   <div className="card-overlay">
-                    <h3>Project 1</h3>
-                    <p>Description of your amazing project goes here. Add details about technologies used and impact.</p>
+                    <h3>AuraPharm: Pharmacy Management System</h3>
+                    <p>This is a comprehensive pharmacy management system designed to streamline operations and improve patient care.</p>
                     <div className="project-tech-icons">
-                      <SiReact title="React" />
+                      <SiHtml5 title="Html5" />
                       <SiJavascript title="JavaScript" />
                       <SiTailwindcss title="Tailwind CSS" />
                     </div>
