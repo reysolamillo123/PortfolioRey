@@ -1097,6 +1097,7 @@ section h2 {
 
 .spotlight-card .project-card {
   min-height: 300px;
+  aspect-ratio: 4 / 3 !important;
 }
 
 .spotlight-card .certificate-card {
