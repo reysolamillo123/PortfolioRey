@@ -12,6 +12,11 @@ import cert1 from './src/assets/images/cert/Cert 1.png';
 import cert2 from './src/assets/images/cert/Cert 2.png';
 import cert3 from './src/assets/images/cert/Cert 3.png';
 import cert4 from './src/assets/images/cert/Cert 4.png';
+import badge1 from './src/assets/images/badge/badge1.png';
+import badge2 from './src/assets/images/badge/badge2.png';
+import badge3 from './src/assets/images/badge/badge3.png';
+import badge4 from './src/assets/images/badge/badge4.png';
+import reyImage from './src/assets/images/project/REY.jpg';
 import { MdEmail, MdPhone, MdLocationOn } from 'react-icons/md';
 
 function App() {
@@ -115,7 +120,7 @@ function App() {
             handle="reysolamillo"
             status="Online"
             contactText="Contact Me"
-            avatarUrl="src/assets/images/project/REY.jpg"
+            avatarUrl={reyImage}
             showUserInfo={true}
             enableTilt={true}
             enableMobileTilt={false}
@@ -219,8 +224,8 @@ function App() {
           <Carousel itemsPerView={4}>
             {(badgeCategory === 'all' || badgeCategory === 'intermediate') && (
               <SpotlightCard spotlightColor="rgba(139, 0, 0, 0.3)">
-                <div className="badge-item" onClick={() => openModal('src/assets/images/badge/badge1.png', 'CCNA:Switching, Routing & Wireless Essentials', 'This is my first Badge Achievement in Cisco Networking Academy')}>
-                  <div className="card-image" style={{ backgroundImage: 'url(src/assets/images/badge/badge1.png)' }}></div>
+                <div className="badge-item" onClick={() => openModal(badge1, 'CCNA:Switching, Routing & Wireless Essentials', 'This is my first Badge Achievement in Cisco Networking Academy')}>
+                  <div className="card-image" style={{ backgroundImage: `url(${badge1})` }}></div>
                   <span className="difficulty-badge intermediate">Intermediate</span>
                   <div className="card-overlay">
                     <h3>CCNA:Switching, Routing & Wireless Essentials</h3>
@@ -230,8 +235,8 @@ function App() {
             )}
             {(badgeCategory === 'all' || badgeCategory === 'beginner') && (
               <SpotlightCard spotlightColor="rgba(139, 0, 0, 0.3)">
-                <div className="badge-item" onClick={() => openModal('src/assets/images/badge/badge2.png', 'Introduction to Cybersecurity', 'This badge certifies that I have successfully completed the Introduction to Cybersecurity course')}>
-                  <div className="card-image" style={{ backgroundImage: 'url(src/assets/images/badge/badge2.png)' }}></div>
+                <div className="badge-item" onClick={() => openModal(badge2, 'Introduction to Cybersecurity', 'This badge certifies that I have successfully completed the Introduction to Cybersecurity course')}>
+                  <div className="card-image" style={{ backgroundImage: `url(${badge2})` }}></div>
                   <span className="difficulty-badge beginner">Beginner</span>
                   <div className="card-overlay">
                     <h3>Introduction to Cybersecurity</h3>
@@ -241,8 +246,8 @@ function App() {
             )}
             {(badgeCategory === 'all' || badgeCategory === 'beginner') && (
               <SpotlightCard spotlightColor="rgba(139, 0, 0, 0.3)">
-                <div className="badge-item" onClick={() => openModal('src/assets/images/badge/badge3.png', 'Introduction to Modern Ai', 'This badge certifies that I have successfully completed the Introduction to Modern Ai course')}>
-                  <div className="card-image" style={{ backgroundImage: 'url(src/assets/images/badge/badge3.png)' }}></div>
+                <div className="badge-item" onClick={() => openModal(badge3, 'Introduction to Modern Ai', 'This badge certifies that I have successfully completed the Introduction to Modern Ai course')}>
+                  <div className="card-image" style={{ backgroundImage: `url(${badge3})` }}></div>
                   <span className="difficulty-badge beginner">Beginner</span>
                   <div className="card-overlay">
                     <h3>Introduction to Modern Ai</h3>
@@ -252,8 +257,8 @@ function App() {
             )}
             {(badgeCategory === 'all' || badgeCategory === 'beginner') && (
               <SpotlightCard spotlightColor="rgba(139, 0, 0, 0.3)">
-                <div className="badge-item" onClick={() => openModal('src/assets/images/badge/badge4.png', 'Introduction to Data Science', 'This badge certifies that I have successfully completed the Introduction to Data Science course')}>
-                  <div className="card-image" style={{ backgroundImage: 'url(src/assets/images/badge/badge4.png)' }}></div>
+                <div className="badge-item" onClick={() => openModal(badge4, 'Introduction to Data Science', 'This badge certifies that I have successfully completed the Introduction to Data Science course')}>
+                  <div className="card-image" style={{ backgroundImage: `url(${badge4})` }}></div>
                   <span className="difficulty-badge beginner">Beginner</span>
                   <div className="card-overlay">
                     <h3>Introduction to Data Science</h3>
