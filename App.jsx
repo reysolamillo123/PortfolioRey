@@ -12,6 +12,8 @@ import cert1 from './src/assets/images/cert/Cert 1.png';
 import cert2 from './src/assets/images/cert/Cert 2.png';
 import cert3 from './src/assets/images/cert/Cert 3.png';
 import cert4 from './src/assets/images/cert/Cert 4.png';
+import cert5 from './src/assets/images/cert/Cert 5.png';
+import cert6 from './src/assets/images/cert/Cert 6.png';
 import badge1 from './src/assets/images/badge/badge1.png';
 import badge2 from './src/assets/images/badge/badge2.png';
 import badge3 from './src/assets/images/badge/badge3.png';
@@ -195,11 +197,10 @@ function App() {
                   <div className="card-image" style={{ backgroundImage: 'url(https://picsum.photos/seed/project2/800/600)' }}></div>
                   <span className="difficulty-badge intermediate">Intermediate</span>
                   <div className="card-overlay">
-                    <h3>Project 2</h3>
-                    <p>Description of your amazing project goes here. Add details about technologies used and impact.</p>
+                    <h3>RoomLink</h3>
+                    <p>This is a room booking application built with Flutter, designed to simplify the process of reserving rooms and managing schedules.</p>
                     <div className="project-tech-icons">
-                      <SiDjango title="Django" />
-                      <SiNextdotjs title="Next.js" />
+                      <SiFlutter title="Flutter" />
                     </div>
                   </div>
                 </div>
@@ -336,6 +337,32 @@ function App() {
               <SpotlightCard spotlightColor="rgba(139, 0, 0, 0.3)">
                 <div className="certificate-card" onClick={() => openModal(cert4, 'Certificate Name 4', 'Issuing Organization - 2024')}>
                   <div className="card-image" style={{ backgroundImage: `url(${cert4})` }}></div>
+                  <span className="difficulty-badge beginner">Beginner</span>
+                  <div className="card-overlay">
+                    <h3>Certificate Name 4</h3>
+                    <p>CISCO</p>
+                    <p className="cert-date">2025</p>
+                  </div>
+                </div>
+              </SpotlightCard>
+            )}
+            {(certificateCategory === 'all' || certificateCategory === 'beginner') && (
+              <SpotlightCard spotlightColor="rgba(139, 0, 0, 0.3)">
+                <div className="certificate-card" onClick={() => openModal(cert5, 'Certificate Name 5', 'FreeCodeCamp - 2025')}>
+                  <div className="card-image" style={{ backgroundImage: `url(${cert5})` }}></div>
+                  <span className="difficulty-badge beginner">Beginner</span>
+                  <div className="card-overlay">
+                    <h3>Certificate Name 4</h3>
+                    <p>CISCO</p>
+                    <p className="cert-date">2025</p>
+                  </div>
+                </div>
+              </SpotlightCard>
+            )}
+            {(certificateCategory === 'all' || certificateCategory === 'beginner') && (
+              <SpotlightCard spotlightColor="rgba(139, 0, 0, 0.3)">
+                <div className="certificate-card" onClick={() => openModal(cert6, 'Certificate Name 6', 'FreeCodeCamp - 2025')}>
+                  <div className="card-image" style={{ backgroundImage: `url(${cert6})` }}></div>
                   <span className="difficulty-badge beginner">Beginner</span>
                   <div className="card-overlay">
                     <h3>Certificate Name 4</h3>

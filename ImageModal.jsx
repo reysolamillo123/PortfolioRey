@@ -1,8 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './ImageModal.css';
 
 const ImageModal = ({ isOpen, onClose, image, title, description }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  
+  // Reset currentIndex when modal opens or image changes
+  useEffect(() => {
+    if (isOpen) {
+      setCurrentIndex(0);
+    }
+  }, [isOpen, image]);
   
   if (!isOpen) return null;
 
