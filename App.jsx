@@ -352,8 +352,8 @@ function App() {
                   <div className="card-image" style={{ backgroundImage: `url(${cert5})` }}></div>
                   <span className="difficulty-badge beginner">Beginner</span>
                   <div className="card-overlay">
-                    <h3>Certificate Name 4</h3>
-                    <p>CISCO</p>
+                    <h3>Certificate Name 5</h3>
+                    <p>FreeCodeCamp</p>
                     <p className="cert-date">2025</p>
                   </div>
                 </div>
@@ -365,8 +365,8 @@ function App() {
                   <div className="card-image" style={{ backgroundImage: `url(${cert6})` }}></div>
                   <span className="difficulty-badge beginner">Beginner</span>
                   <div className="card-overlay">
-                    <h3>Certificate Name 4</h3>
-                    <p>CISCO</p>
+                    <h3>Certificate Name 6</h3>
+                    <p>FreeCodeCamp</p>
                     <p className="cert-date">2025</p>
                   </div>
                 </div>
