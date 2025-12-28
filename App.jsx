@@ -85,7 +85,7 @@ function App() {
         </div>
         <div className="nav-right">
           
-          <a href="/CV_REY.pdf" download="CV_REY_SOLAMILLO.pdf" style={{ textDecoration: 'none' }}>
+          <a href="/PortfolioRey/CV_REY.pdf" download="CV_REY_SOLAMILLO.pdf" style={{ textDecoration: 'none' }}>
             <button className="cv-button">Download CV</button>
           </a>
           <button className="burger-menu" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
