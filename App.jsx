@@ -31,6 +31,9 @@ import aura9 from './src/assets/images/project/Aurapharm/Aura9.png';
 import aura10 from './src/assets/images/project/Aurapharm/Aura10.png';
 import aura11 from './src/assets/images/project/Aurapharm/Aura11.png';
 import aura12 from './src/assets/images/project/Aurapharm/Aura12.png';
+import data1 from './src/assets/images/project/DataAnalystPortfolio/data1.png';
+import data2 from './src/assets/images/project/DataAnalystPortfolio/data2.png';
+import data3 from './src/assets/images/project/DataAnalystPortfolio/data3.png';
 import { MdEmail, MdPhone, MdLocationOn } from 'react-icons/md';
 
 function App() {
@@ -214,11 +217,10 @@ function App() {
                   <div className="card-image" style={{ backgroundImage: 'url(https://picsum.photos/seed/project3/800/600)' }}></div>
                   <span className="difficulty-badge advanced">Advanced</span>
                   <div className="card-overlay">
-                    <h3>Project 3</h3>
-                    <p>Description of your amazing project goes here. Add details about technologies used and impact.</p>
+                    <h3>Data Analyst Portfolio</h3>
+                    <p>This portfolio showcases my skills and projects as a data analyst, highlighting my ability to analyze and visualize data effectively.</p>
                     <div className="project-tech-icons">
-                      <SiLaravel title="Laravel" />
-                      <SiTypescript title="TypeScript" />
+                      <SiReact title="React" />
                     </div>
                   </div>
                 </div>
