@@ -198,8 +198,8 @@ function App() {
             )}
             {(projectCategory === 'all' || projectCategory === 'intermediate') && (projectLanguage === 'all' || projectLanguage === 'django') && (
               <SpotlightCard spotlightColor="rgba(139, 0, 0, 0.3)">
-                <div className="project-card" onClick={() => openModal(['https://picsum.photos/seed/project2/1200/800', 'https://picsum.photos/seed/project2a/1200/800', 'https://picsum.photos/seed/project2b/1200/800'], 'Project 2', 'Description of your amazing project goes here. Add details about technologies used and impact.')}>
-                  <div className="card-image" style={{ backgroundImage: 'url(https://picsum.photos/seed/project2/800/600)' }}></div>
+                <div className="project-card" onClick={() => openModal([data1,data2,data3], 'Data Analyst Portfolio', 'This portfolio showcases my skills and projects as a data analyst, highlighting my ability to analyze and visualize data effectively.')}>
+                  <div className="card-image" style={{ backgroundImage: `url(${data1})` }}></div>
                   <span className="difficulty-badge intermediate">Intermediate</span>
                   <div className="card-overlay">
                     <h3>RoomLink</h3>
@@ -213,8 +213,8 @@ function App() {
             )}
             {(projectCategory === 'all' || projectCategory === 'advanced') && (projectLanguage === 'all' || projectLanguage === 'laravel') && (
               <SpotlightCard spotlightColor="rgba(139, 0, 0, 0.3)">
-                <div className="project-card" onClick={() => openModal(['https://picsum.photos/seed/project3/1200/800', 'https://picsum.photos/seed/project3a/1200/800', 'https://picsum.photos/seed/project3b/1200/800'], 'Project 3', 'Description of your amazing project goes here. Add details about technologies used and impact.')}>
-                  <div className="card-image" style={{ backgroundImage: 'url(https://picsum.photos/seed/project3/800/600)' }}></div>
+                <div className="project-card" onClick={() => openModal([data1, data2, data3], 'Data Analyst Portfolio', 'This portfolio showcases my skills and projects as a data analyst, highlighting my ability to analyze and visualize data effectively.')}>
+                  <div className="card-image" style={{ backgroundImage:  `url(${data1})` }}></div>
                   <span className="difficulty-badge advanced">Advanced</span>
                   <div className="card-overlay">
                     <h3>Data Analyst Portfolio</h3>
