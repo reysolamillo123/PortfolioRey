@@ -198,7 +198,7 @@ function App() {
             )}
             {(projectCategory === 'all' || projectCategory === 'intermediate') && (projectLanguage === 'all' || projectLanguage === 'flutter') && (
               <SpotlightCard spotlightColor="rgba(139, 0, 0, 0.3)">
-                <div className="project-card">
+                <div className="project-card" onClick={() => openModal(['https://picsum.photos/seed/roomlink1/1200/800', 'https://picsum.photos/seed/roomlink2/1200/800', 'https://picsum.photos/seed/roomlink3/1200/800'], 'RoomLink', 'This is a room booking application built with Flutter, designed to simplify the process of reserving rooms and managing schedules.')}>
                   <div className="card-image"></div>
                   <span className="difficulty-badge intermediate">Intermediate</span>
                   <div className="card-overlay">
@@ -211,11 +211,11 @@ function App() {
                 </div>
               </SpotlightCard>
             )}
-            {(projectCategory === 'all' || projectCategory === 'advanced') && (projectLanguage === 'all' || projectLanguage === 'laravel') && (
+            {(projectCategory === 'all' || projectCategory === 'beginner') && (projectLanguage === 'all' || projectLanguage === 'react') && (
               <SpotlightCard spotlightColor="rgba(139, 0, 0, 0.3)">
                 <div className="project-card" onClick={() => openModal([data1, data2, data3], 'Data Analyst Portfolio', 'This portfolio showcases my skills and projects as a data analyst, highlighting my ability to analyze and visualize data effectively.')}>
                   <div className="card-image" style={{ backgroundImage:  `url(${data1})` }}></div>
-                  <span className="difficulty-badge advanced">Advanced</span>
+                  <span className="difficulty-badge beginner">Beginner</span>
                   <div className="card-overlay">
                     <h3>Data Analyst Portfolio</h3>
                     <p>This portfolio showcases my skills and projects as a data analyst, highlighting my ability to analyze and visualize data effectively.</p>
