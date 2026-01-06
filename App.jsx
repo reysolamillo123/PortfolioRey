@@ -34,6 +34,38 @@ import aura12 from './src/assets/images/project/Aurapharm/Aura12.png';
 import data1 from './src/assets/images/project/DataAnalystPortfolio/data1.png';
 import data2 from './src/assets/images/project/DataAnalystPortfolio/data2.png';
 import data3 from './src/assets/images/project/DataAnalystPortfolio/data3.png';
+import flutter1 from './src/assets/images/project/flutter/f1.jpg';
+import flutter2 from './src/assets/images/project/flutter/f2.jpg';
+import flutter3 from './src/assets/images/project/flutter/f3.jpg';
+import flutter4 from './src/assets/images/project/flutter/f4.jpg';
+import flutter5 from './src/assets/images/project/flutter/f5.jpg';
+import flutter6 from './src/assets/images/project/flutter/f6.jpg';
+import flutter7 from './src/assets/images/project/flutter/f7.jpg';
+import flutter8 from './src/assets/images/project/flutter/f8.jpg';
+import flutter9 from './src/assets/images/project/flutter/f9.jpg';
+import flutter10 from './src/assets/images/project/flutter/f10.jpg';
+import flutter11 from './src/assets/images/project/flutter/f11.jpg';
+import flutter12 from './src/assets/images/project/flutter/f12.jpg';
+import flutter13 from './src/assets/images/project/flutter/f13.jpg';
+import flutter14 from './src/assets/images/project/flutter/f14.jpg';
+import flutter15 from './src/assets/images/project/flutter/f15.jpg';
+import flutter16 from './src/assets/images/project/flutter/f16.jpg';
+import flutter17 from './src/assets/images/project/flutter/f17.jpg';
+import flutter18 from './src/assets/images/project/flutter/f18.jpg';
+import flutter19 from './src/assets/images/project/flutter/f19.jpg';
+import flutter20 from './src/assets/images/project/flutter/f20.jpg';
+import flutter21 from './src/assets/images/project/flutter/f21.jpg';
+import flutter22 from './src/assets/images/project/flutter/f22.jpg';
+import flutter24 from './src/assets/images/project/flutter/f24.jpg';
+import flutter25 from './src/assets/images/project/flutter/f25.png';
+import flutter26 from './src/assets/images/project/flutter/f26.png';
+import flutter27 from './src/assets/images/project/flutter/f27.png';
+import flutter28 from './src/assets/images/project/flutter/f28.png';
+import flutter29 from './src/assets/images/project/flutter/f29.png';
+import flutter30 from './src/assets/images/project/flutter/f30.png';
+import flutter31 from './src/assets/images/project/flutter/f31.png';
+import flutter32 from './src/assets/images/project/flutter/f32.png';
+import flutter33 from './src/assets/images/project/flutter/f33.png';
 import { MdEmail, MdPhone, MdLocationOn } from 'react-icons/md';
 
 function App() {
@@ -198,8 +230,8 @@ function App() {
             )}
             {(projectCategory === 'all' || projectCategory === 'intermediate') && (projectLanguage === 'all' || projectLanguage === 'flutter') && (
               <SpotlightCard spotlightColor="rgba(139, 0, 0, 0.3)">
-                <div className="project-card" onClick={() => openModal(['https://picsum.photos/seed/roomlink1/1200/800', 'https://picsum.photos/seed/roomlink2/1200/800', 'https://picsum.photos/seed/roomlink3/1200/800'], 'RoomLink', 'This is a room booking application built with Flutter, designed to simplify the process of reserving rooms and managing schedules.')}>
-                  <div className="card-image"></div>
+                <div className="project-card" onClick={() => openModal([flutter1, flutter2, flutter3, flutter4, flutter5, flutter6, flutter7, flutter8, flutter9, flutter10, flutter11, flutter12, flutter13, flutter14, flutter15, flutter16, flutter17, flutter18, flutter19, flutter20, flutter21, flutter22, flutter24, flutter25, flutter26, flutter27, flutter28, flutter29, flutter30, flutter31, flutter32, flutter33], 'RoomLink', 'This is a room booking application built with Flutter, designed to simplify the process of reserving rooms and managing schedules.')}>
+                  <div className="card-image" style={{ backgroundImage: `url(${flutter1})` }}></div>
                   <span className="difficulty-badge intermediate">Intermediate</span>
                   <div className="card-overlay">
                     <h3>RoomLink</h3>
