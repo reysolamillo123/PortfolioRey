@@ -83,6 +83,8 @@ import elec6 from './src/assets/images/project/ElectroBai/elec6.png';
 import elec7 from './src/assets/images/project/ElectroBai/elec7.png';
 import elec8 from './src/assets/images/project/ElectroBai/elec8.png';
 import elec9 from './src/assets/images/project/ElectroBai/elec9.png';
+import elec10 from './src/assets/images/project/ElectroBai/elec10.png';
+import elec11 from './src/assets/images/project/ElectroBai/elec11.png';
 import { MdEmail, MdPhone, MdLocationOn } from 'react-icons/md';
 
 function App() {
@@ -292,7 +294,7 @@ function App() {
             )}
             {(projectCategory === 'all' || projectCategory === 'beginner') && (projectLanguage === 'all' || projectLanguage === 'laravel') && (
               <SpotlightCard spotlightColor="rgba(139, 0, 0, 0.3)">
-                <div className="project-card" onClick={() => openModal([elec1, elec2, elec3, elec4, elec5, elec6, elec7, elec8, elec9], 'ElectroBai: Delivery System', 'A comprehensive delivery management system built with Laravel featuring real-time tracking, order management, and efficient logistics coordination for seamless delivery operations.')}>
+                <div className="project-card" onClick={() => openModal([elec1, elec2, elec3, elec4, elec5, elec6, elec7, elec8, elec9, elec10, elec11], 'ElectroBai: Delivery System', 'A comprehensive delivery management system built with Laravel featuring real-time tracking, order management, and efficient logistics coordination for seamless delivery operations.')}>
                   <div className="card-image" style={{ backgroundImage:  `url(${elec1})` }}></div>
                   <span className="difficulty-badge beginner">Beginner</span>
                   <div className="card-overlay">
