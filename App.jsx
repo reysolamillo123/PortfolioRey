@@ -74,6 +74,15 @@ import django5 from './src/assets/images/project/django/d5.png';
 import django6 from './src/assets/images/project/django/d6.png';
 import django7 from './src/assets/images/project/django/d7.png';
 import django8 from './src/assets/images/project/django/d8.png';
+import elec1 from './src/assets/images/project/ElectroBai/elec1.png';
+import elec2 from './src/assets/images/project/ElectroBai/elec2.png';
+import elec3 from './src/assets/images/project/ElectroBai/elec3.png';
+import elec4 from './src/assets/images/project/ElectroBai/elec4.png';
+import elec5 from './src/assets/images/project/ElectroBai/elec5.png';
+import elec6 from './src/assets/images/project/ElectroBai/elec6.png';
+import elec7 from './src/assets/images/project/ElectroBai/elec7.png';
+import elec8 from './src/assets/images/project/ElectroBai/elec8.png';
+import elec9 from './src/assets/images/project/ElectroBai/elec9.png';
 import { MdEmail, MdPhone, MdLocationOn } from 'react-icons/md';
 
 function App() {
@@ -276,6 +285,21 @@ function App() {
                     <p> This is my first project using Django for API development like gmail automation and facebook authentication and then django rest framework for the api creation.</p>
                     <div className="project-tech-icons">
                      <SiDjango title="Django" />
+                    </div>
+                  </div>
+                </div>
+              </SpotlightCard>
+            )}
+            {(projectCategory === 'all' || projectCategory === 'beginner') && (projectLanguage === 'all' || projectLanguage === 'laravel') && (
+              <SpotlightCard spotlightColor="rgba(139, 0, 0, 0.3)">
+                <div className="project-card" onClick={() => openModal([elec1, elec2, elec3, elec4, elec5, elec6, elec7, elec8, elec9], 'ElectroBai: Delivery System', 'A comprehensive delivery management system built with Laravel featuring real-time tracking, order management, and efficient logistics coordination for seamless delivery operations.')}>
+                  <div className="card-image" style={{ backgroundImage:  `url(${elec1})` }}></div>
+                  <span className="difficulty-badge beginner">Beginner</span>
+                  <div className="card-overlay">
+                    <h3>ElectroBai: Delivery System</h3>
+                    <p>A comprehensive delivery management system built with Laravel featuring real-time tracking, order management, and efficient logistics coordination.</p>
+                    <div className="project-tech-icons">
+                     <SiLaravel title="Laravel" />
                     </div>
                   </div>
                 </div>
